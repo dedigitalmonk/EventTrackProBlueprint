@@ -131,6 +131,16 @@ This project is configured for deployment on Render.com using the included `rend
 - Frontend web service
 - Backend API service
 - PostgreSQL database connection
+  
+## 🎁 Support My Work
+
+Hey fellow developer! 👋
+
+I'm passionate about creating and sharing tools that make our lives easier. If you find EventTrackPro useful in your projects or learn something new from the codebase, consider buying me a coffee! Your support helps me dedicate more time to maintaining this project and creating more open-source tools for the dev community.
+
+Every contribution, no matter how small, fuels my late-night coding sessions and keeps the commits flowing! 
+
+[![Ko-fi](https://img.shields.io/badge/Support%20me%20on-Ko--fi-FF5E5B?style=for-the-badge)](https://ko-fi.com/dedigitalmonk)
 
 ## 🤝 Contributing
 
