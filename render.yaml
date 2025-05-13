@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: eventtrackpro-backend
+    env: node
+    buildCommand: cd backend && npm install && npm run build
+    startCommand: cd backend && npm start
+    envVars:
+      - key: DATABASE_URL
+        value: postgresql://eventmanager_db_a10w_user:zKkjUQwrCguAsmKFA5bMBSDN2PBGmDPQ@dpg-d0es9q95pdvs73b1jidg-a.frankfurt-postgres.render.com/eventmanager_db_a10w
+      - key: NODE_ENV
+        value: production
+    healthCheckPath: /health
+
+  - type: web
+    name: eventtrackpro-frontend
+    env: node
+    buildCommand: cd frontend && npm install && npm run build
+    startCommand: cd frontend && npm run preview
+    envVars:
+      - key: VITE_API_URL
+        value: https://eventtrackpro-backend.onrender.com
+      - key: NODE_ENV
+        value: production 
