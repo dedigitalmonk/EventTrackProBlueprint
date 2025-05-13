@@ -6,7 +6,7 @@ services:
     startCommand: cd backend && npm start
     envVars:
       - key: DATABASE_URL
-        value: postgresql://eventmanager_db_a10w_user:zKkjUQwrCguAsmKFA5bMBSDN2PBGmDPQ@dpg-d0es9q95pdvs73b1jidg-a.frankfurt-postgres.render.com/eventmanager_db_a10w
+        value: postgresql://eventmanager_db_a10w_user:zKkjUQwrCguAsmKFA5bMBSDN2PBGmDPQ@dpg-d0es9q95pdvs73b1jidg-a/eventmanager_db_a10w
       - key: NODE_ENV
         value: production
     healthCheckPath: /health
